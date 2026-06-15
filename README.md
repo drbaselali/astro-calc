@@ -13,21 +13,18 @@ The first two apporches are used to derive the orbital elements for objects that
 **Key Findings**
 **Bilby-MCMC**
 
-## Figures
 
 ![Simulation result](figures/bilby.png)
 
 According to the figure, the method fails to find the second modes of both of the arugment of the pericenter and the longitude of ascending node, which are expected in the case, where radial velocity data are missing. 
 
 **Ultranest**
-## Figures
 
 ![Simulation result](figures/S20.png)
 
 As demonstrated above nested sampling methods perform significantly better than the traditional MCMC methods. 
 
 **HDBSCAN**
-## Figures
 
 ![Simulation result](figures/hdbscan.png)
 
